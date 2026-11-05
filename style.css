@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.language-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.language-buttons button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: #e4e6eb;
+    color: #050505;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.language-buttons button:hover {
+    background: #d8dadf;
+}
+
+.review-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background: #fafafa;
+}
+
+.review-card p {
+    margin-top: 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.post-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.post-btn:hover {
+    background: #166fe5;
+}
+
+#loadMoreBtn {
+    width: 100%;
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    display: none;
+    transition: background 0.2s;
+}
+
+#loadMoreBtn:hover {
+    background: #218838;
+}
